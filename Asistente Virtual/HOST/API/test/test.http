@@ -1,0 +1,29 @@
+POST http://localhost:4004/client/chat
+Content-Type: application/json
+
+{
+    "type": "prompt",
+    "sessionId": "e99282274469408a95a0d04f3d93f589",
+    "content": "Puedes hablar en español?"
+}
+###
+GET http://localhost:4004/getusers
+
+###
+POST http://localhost:4004/createuser
+Content-Type: application/json
+
+{
+    "mail": "alguien@epn.edu.ec"
+}
+
+###
+DELETE http://localhost:4004/deleteuser
+Content-Type: application/json
+
+{
+    "mail": "alguien@epn.edu.ec"
+}
+
+###
+GET http://localhost:4004/getChat?sessionId=e99282274469408a95a0d04f3d93f589

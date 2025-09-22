@@ -1,0 +1,52 @@
+#SigInContainer{
+    position: relative;
+    inset: 0;
+    margin: auto;
+    width: 30vw;
+    box-shadow: 2px 1px 10px 1px #fff,
+    1px 1px 20px 0px #1c2a4f;
+    padding: 1.5vw;
+}
+#SigInContainer h2{
+    margin: 0;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+#HeaderSigInContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#HeaderSigInContainer h5{
+    text-align: center;
+    margin: 0;
+}
+
+#emailInput{
+    width: 80%;
+    height: 20px;
+    margin-left: 1vw;
+    border: 0;
+    padding: 5px;
+}
+
+#emailInput:hover{
+    box-shadow: 1px 1px 5px #fff;
+}
+
+#EnterButton{
+    background: #1c2a4f;
+    border: none;
+    height: 30px;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 0.5px solid #fff;
+}
+
+#EnterButton:hover{
+    cursor: pointer;
+}

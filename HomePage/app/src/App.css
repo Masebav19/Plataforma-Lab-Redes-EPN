@@ -1,0 +1,117 @@
+header{
+  margin: 0;
+  padding: 5px;
+  height: 4vh;
+  font-size: 14.5px;
+  display: flex;
+  align-items: center;
+}
+header:first-child{
+  margin-left: 1vw;
+}
+
+header .headerspan{
+  padding: 0px 20px 5px 20px;
+  box-shadow: 0 2px 2px -2px #22282a;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+header .headerspan:hover{
+  box-shadow: 0 4px 4px -2px #22282a;
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+#ContactContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#ContactContainer .LineFooter{
+  height: 2px;
+  width: 100%;
+  border-bottom: 1px solid #22282a;
+  box-shadow: 0 2px 2px -2px #22282a;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#ContactInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+#ContactInfo div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#ContactInfo div h5{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+main{
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#ProjectsInfoContainer{
+  width: 95vw;
+  overflow: auto;
+}
+
+#ImageGallery{
+  width: 100%;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(3, 15vw);
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  overflow: auto;
+}
+
+#ImageGallery div{
+  width: 15vw;
+  height: 15vw;
+  overflow: hidden;
+  background: #a6b7ba;
+  padding: 5px;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+#ImageGallery div:hover{
+  transform: scale(1.1);
+  overflow: visible;
+  box-shadow: 0 4px 4px -2px #3f484b;
+  transition: all 0.2s ease-in-out;
+}
+
+#ImageGallery div img{
+  height: 100%;
+  border-radius: 5px;
+}
+
+#ProjectsInfoContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (width < 730px) {
+  #ImageGallery{
+    display: none;
+    
+  }
+  
+}

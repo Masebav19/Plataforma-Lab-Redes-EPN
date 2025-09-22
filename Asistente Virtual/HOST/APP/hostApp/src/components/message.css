@@ -1,0 +1,21 @@
+.messageContainer.assistant{
+    align-self: flex-start;
+    max-width: 40vw;
+    background: #1c2a4f;
+    
+}
+.messageContainer.user{
+    align-self: flex-end;
+    max-width: 40vw;
+    background: #2b5aca;
+}
+.messageContainer{
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+
+.messageContainer span{
+    display: flex;
+    flex-direction: column;
+}

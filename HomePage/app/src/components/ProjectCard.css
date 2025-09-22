@@ -1,0 +1,34 @@
+.ProjectCard{
+    background: #a6b7ba;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ProjectCard section:first-child{
+    box-shadow: 0 2px 2px -2px #22282a
+}
+
+.ProjectExtraInfo.desativated{
+    display: none;
+}
+
+.ProjectExtraInfo {
+    display: flex;
+    flex-direction: column;
+   animation: FadeOut 1s ease-in-out both;
+}
+
+.ProjectExtraInfo small{
+    overflow: hidden;
+}
+
+@keyframes FadeOut{
+    0%{
+        height: 0%;
+        
+    }
+    100%{
+        height: 100%; 
+    }
+}
